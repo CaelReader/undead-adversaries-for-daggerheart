@@ -1,0 +1,61 @@
+{
+  "id": "undead-adversaries-for-daggerheart",
+  "title": "Undead Adversaries (for Daggerheart)",
+  "version": "1.1.0",
+  "manifest": "https://github.com/CaelReader/undead-adversaries-for-daggerheart/releases/latest/download/module.json",
+  "download": "https://github.com/CaelReader/undead-adversaries-for-daggerheart/releases/download/1.1.0/module.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p><span><strong>Undead Adversaries</strong> adds 60 new Daggerheart-compatible statblocks, expanding your repertoire of undead types including ghosts, vampires, mummies, and fungus-infected varieties.</span></p><p><span>At least one adversary is included for each Role at each Tier. For example, there is a Tier 1 Solo (the Plague Troll), a Tier 2 Solo (the Vampire Spawn), a Tier 3 Solo (the Bone Naga) and a Tier 4 Solo (the Mummy Pharaoh). This lets you compose varied encounters against undead at every tier of play.</span></p><p><span>Pester your party with a Poltergeist inhabiting a haunted house. Have your party contend with a seemingly intelligent horde of infected zombies led by a Mycelial Coordinator. Terrorize players with the overwhelming force of a Feral Vampire. Unleash the three-stage Dragon Lich as the final BBEG of a undead-slaying campaign.</span></p><p><span>Also comes with 4 new Environment statblocks: the Graveyard, the Mycelial Overgrowth, the Ancient Mausoleum, and the Vampire Clan's Estate.</span></p>",
+  "authors": [
+    {
+      "name": "Sean vas Terra",
+      "url": "caelreader.carrd.co",
+      "discord": "CaelReader",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/CaelReader/undead-adversaries-for-daggerheart",
+  "flags": {
+  },
+  "packs": [
+    {
+      "name": "undead-adversaries",
+      "label": "Undead Adversaries",
+      "path": "packs/undead-adversaries",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "banner": "modules/undead-adversaries-for-daggerheart/images/undeadadversaries-foundry-thumb.webp", 
+      "system": "daggerheart"
+    }
+  ],
+  "packFolders": [
+    {
+        "name": "Adversary Variety Pack",
+        "sorting": "a",
+        "color": "#482C31",
+        "packs": ["undead-adversaries"]
+    }
+  ],
+  "media": [{
+    "type": "setup",
+    "url": "modules/undead-adversaries-for-daggerheart/images/undeadadversaries-foundry-thumb.webp",
+    "thumbnail": "modules/undead-adversaries-for-daggerheart/images/undeadadversaries-foundry-thumb.webp"
+  }],
+  "relationships": {
+    "systems": [
+      {
+        "id": "daggerheart",
+        "type": "system",
+        "compatibility": {
+          "minimum": "1.7.0"
+        }
+      }
+    ]
+  }
+}
